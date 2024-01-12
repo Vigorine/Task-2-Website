@@ -2,6 +2,7 @@
 import { FaMoon } from "react-icons/fa"
 import Image from 'next/image'
 import { useState } from 'react'
+import { LoginForm } from "../../components/login-form"
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false)
@@ -27,6 +28,9 @@ export default function Home() {
         </nav>
         <div className="p-36">
             <h1 className=" text-2xl">Login</h1>
+        </div>
+        <div className="vh-100 d-flex justify-content-center align-items-center">
+          <LoginForm/>
         </div>
       </div>
     </main>
