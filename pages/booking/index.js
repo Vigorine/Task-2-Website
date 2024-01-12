@@ -1,7 +1,6 @@
 "use client"
 import { FaMoon } from "react-icons/fa"
 import Image from 'next/image'
-import main_1 from '../public/main_1.jpg'
 import { useState } from 'react'
 
 export default function Home() {
@@ -26,9 +25,6 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-        <div className=" rounded-md ">
-          <Image className=" object-cover h-main_1 w-screen " src={main_1} />
-        </div>
       </div>
     </main>
   )
